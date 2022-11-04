@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/05242ed6c4.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/18370ca8b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <header>
+        <div class="baree dropdown-menu">
+            <div id="bars"><i class="fa-solid fa-bars"></i></div>
+            <div class="dropdown-list nav-menu">
+                <ul class="no-list-style">
+                    <li>
+                        <a href="#"> Home </a>
+                    </li>
+                    <li>
+                        <a href="#about"> About </a>
+                    </li>
+                    <li>
+                        <a href="#skills"> Skills </a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav-logo2" style="color: white;">
+            <div class="nav-music-icon"> <i class="fa-solid fa-music "></i> </div>
+        </div>
+
+        <div class="nav-div">
+
+            <div class="nav-div1">
+                <ul class="nav-ul nav-left">
+
+                    <li>
+                        <div class="nav-logo" style="color: white;">
+                            <div class="nav-music-icon"> <i class="fa-solid fa-music "></i>
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="nav-brand">
+                        <span style="text-align: center; margin-top:40px;">
+                            Durgesh <br>
+                            <span style="font-weight: bolder; font-size: 1.5rem;"> Studio </span>
+                        </span>
+                    </li>
+                    <li>
+                        Favourites
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-div2">
+                <ul class="nav-ul nav-right">
+
+                    <li
+                        style="background-color: rgb(18,25,62); text-align: center; box-sizing: border-box; padding-left: 10px; padding-right: 10px; padding-top: -10px; padding-bottom: 0px; height: 30px; border-radius: 7%;">
+                        <p style="margin-top:6px; " class="nav-search-p">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" name="search" class="nav-search-form" placeholder="Search"
+                                style="background-color: rgb(18,25,62); border: none;">
+                            <i class="fa-solid fa-microphone"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="fa-solid fa-bell" class="bellicon"></i>
+                            <div class="bell-red-dot"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-profile-pic">
+
+                            <img src="static/images/download.jpeg" alt="" class="nav-user-photo hovers">
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <main class="main-body">
+        <section class="left-main-bode">
+            <div>
+                <section class="carousel">
+                    <div class="slideshow-container fade">
+
+                        <!-- Full images with numbers and message Info -->
+                        <div class="Containers">
+                            <div class="MessageInfo">1 / 3</div>
+                            <img src="static/images/bieber.jpeg" style="width:100%;height: 250px;"
+                                class="carousel-img hoverc">
+                            <!-- <div class="Info">First caption</div> -->
+                        </div>
+
+                        <div class="Containers">
+                            <div class="MessageInfo">2 / 3</div>
+                            <img src="static/images/Rihanna.webp" style="width:100%;height: 250px;"
+                                class="carousel-img hoverc">
+                            <!-- <div class="Info">Second Caption</div> -->
+                        </div>
+
+                        <div class="Containers">
+                            <div class="MessageInfo">3 / 3</div>
+                            <img src="static/images/Taylor-Swift.jpeg" style="width:100%;height: 250px;"
+                                class="carousel-img hoverc">
+                            <!-- <div class="Info">Third Caption</div> -->
+                        </div>
+
+                        <!-- Back and forward buttons -->
+                        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+
+
+                    <!-- The circles/dots -->
+                    <div style="text-align:center;margin-top:20px">
+                        <span class="dots" onclick="currentSlide(1)"></span>
+                        <span class="dots" onclick="currentSlide(2)"></span>
+                        <span class="dots" onclick="currentSlide(3)"></span>
+                    </div>
+
+                </section>
+            </div>
+            <div>
+                <section class="left-second-body">
+                    <div>
+                        <p class="heading">Latest Release</p>
+                    </div>
+                    <div class="latest-release">
+                        <div class="lr1">
+                            <div class="lrs">
+
+                                <div class="lsri hoverc">
+                                    <img src="./static/images/charlie_puth.jpeg">
+                                    <div class="pause"><i class="fa-solid fa-play"></i></div>
+                                </div>
+
+                                <div class="lsrd">
+                                    <div>
+                                        <p class="song-title2">Attention</p>
+
+                                        <p class="song-singer">Nov 03,2022</p>
+                                    </div>
+
+                                </div>
+                                <div class="lsrc">
+                                    <div class="dt">
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                    </div>
+                                    <div class="dtt">
+                                        <p>4:44</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="lrs">
+
+                                <div class="lsri hoverc">
+                                    <img src="./static/images/charlie_puth.jpeg">
+                                    <div class="pause"><i class="fa-solid fa-play"></i></div>
+                                </div>
+
+                                <div class="lsrd">
+                                    <div>
+                                        <p class="song-title2">Attention</p>
+
+                                        <p class="song-singer">Nov 03,2022</p>
+                                    </div>
+
+                                </div>
+                                <div class="lsrc">
+                                    <div class="dt">
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                    </div>
+                                    <div class="dtt">
+                                        <p>4:44</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="lr1">
+                            <div class="lrs">
+
+                                <div class="lsri hoverc">
+                                    <img src="./static/images/charlie_puth.jpeg">
+                                    <div class="pause"><i class="fa-solid fa-play"></i></div>
+                                </div>
+
+                                <div class="lsrd">
+                                    <div>
+                                        <p class="song-title2">Attention</p>
+
+                                        <p class="song-singer">Nov 03,2022</p>
+                                    </div>
+
+                                </div>
+                                <div class="lsrc">
+                                    <div class="dt">
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                    </div>
+                                    <div class="dtt">
+                                        <p>4:44</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="lrs">
+
+                                <div class="lsri hoverc">
+                                    <img src="./static/images/charlie_puth.jpeg">
+                                    <div class="pause"><i class="fa-solid fa-play"></i></div>
+                                </div>
+
+                                <div class="lsrd">
+                                    <div>
+                                        <p class="song-title2">Attention</p>
+
+                                        <p class="song-singer">Nov 03,2022</p>
+                                    </div>
+
+                                </div>
+                                <div class="lsrc">
+                                    <div class="dt">
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                        <p class="round"></p>
+                                    </div>
+                                    <div class="dtt">
+                                        <p>4:44</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <p class="heading">Popular Artists</p>
+                    </div>
+
+                    <div class="popular_artist">
+                        <div class="par">
+                            <div class="pari hoverc">
+                                <img src="./static/images/edsheeran.jpeg" alt="" class="parimg ">
+                                <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                            <p class="part">Ed Shareen</p>
+                        </div>
+                        <div class="par">
+                            <div class="pari hoverc">
+                                <img src="./static/images/bruno mars.jpeg" alt="" class="parimg ">
+                                <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                            <p class="part">Bruno Mars</p>
+
+                        </div>
+                        <div class="par">
+                            <div class="pari hoverc">
+                                <img src="./static/images/charliee.jpeg" alt="" class="parimg ">
+                                <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                            <p class="part">Charlie Puth</p>
+
+                        </div>
+                        <a href="./playlist.html">
+                            <div class="par">
+                                <div class="pari hoverc">
+                                    <img src="./static/images/coldplay.jpeg" alt="" class="parimg ">
+                                    <div class="pause"><i class="fa-solid fa-play"></i></div>
+                                </div>
+                                <p class="part">Cold Play</p>
+
+                            </div>
+                        </a>
+                        <div class="par">
+                            <div class="pari hoverc">
+                                <img src="./static/images/imaginedragon.jpeg" alt="" class="parimg ">
+                                <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                            <p class="part">
+                                Imagine Dragon
+                            </p>
+
+
+                        </div>
+                        <div class="par">
+                            <div class="pari hoverc">
+                                <img src="./static/images/zayn.jpeg" alt="" class="parimg hoverc">
+                                <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                            </div>
+                            <p class="part">Zayn Malik</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div>
+                        <p class="heading">Mixed for you: moods</p>
+                    </div>
+                    <div class="moods">
+                        <div class="mds hoverc">
+                            <img src="./static/images/loveg.jpeg" alt="" class="loveb hoverc">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                        </div>
+                        <div class="mds hoverc">
+                            <img src="./static/images/retrog.jpeg" alt="" class="loveb hoverc">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                        </div>
+                        <div class="mds hoverc">
+                            <img src="./static/images/chillg.jpeg" alt="" class="loveb hoverc">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                        </div>
+                        <div class="mds hoverc">
+                            <img src="./static/images/workoutg.jpeg" alt="" class="loveb hoverc">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                        </div>
+                        <div class="mds hoverc">
+                            <img src="./static/images/rock.jpeg" alt="" class="loveb hoverc">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                        </div>
+                        <div class="mds hoverc">
+                            <img src="./static/images/pop.jpeg" alt="" class="loveb hoverc">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+
+                        </div>
+
+                    </div>
+                    <div class="per">
+                        <div class="perd hoverc">
+                            <img src="./static/images/party.jpeg" alt="">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            <p class="lovet">Party</p>
+                        </div>
+                        <div class="perd hoverc">
+                            <img src="./static/images/electronic.jpeg" alt="">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            <p class="lovet">Electronic</p>
+                        </div>
+                        <div class="perd hoverc">
+                            <img src="./static/images/road trip.jpeg" alt="">
+                            <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            <p class="lovet">Roat Trip</p>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="heading">Latest English</p>
+                    </div>
+                    <div class="latest-english">
+                        <div class="led hoverc">
+                            <img src="./static/images/mirage.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+
+                        </div>
+                        <div class="led hoverc">
+                            <img src="./static/images/newskin.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="led hoverc">
+                            <img src="./static/images/nightwemet.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+
+                        <div class="led hoverc">
+                            <img src="./static/images/letmelove.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+
+                        <div class="led hoverc">
+                            <img src="./static/images/worryboutus.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+                        <div class="led hoverc">
+                            <img src="./static/images/august.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div>
+                        <p class="heading">Latest Hindi</p>
+                    </div>
+                    <div class="latest-english">
+                        <div class="led hoverc">
+                            <img src="./static/images/mirage.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+
+                        </div>
+                        <div class="led hoverc">
+                            <img src="./static/images/newskin.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="led hoverc">
+                            <img src="./static/images/nightwemet.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+
+                        <div class="led hoverc">
+                            <img src="./static/images/letmelove.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+
+                        <div class="led hoverc">
+                            <img src="./static/images/worryboutus.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+                        <div class="led hoverc">
+                            <img src="./static/images/august.jpeg" alt="">
+                            <div class="pauset"><i class="fa-solid fa-play"></i></div>
+                            <div style="color: white;">
+                                <p class="song-title2">Attention</p>
+
+                                <p class="song-singer">Nov 03,2022</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </section>
+            </div>
+
+        </section>
+
+
+
+        <aside class="side-section2">
+
+            <div class="right-queue">
+                <div>
+                    <p id="right-queue-p1"> Queue</p>
+                </div>
+
+                <div class="baree2 dropdown-menu2">
+                    <div id="bars">
+                        <p id="right-queue-p2"> Queue <i class="fa-solid fa-angle-down"></i> </p>
+                    </div>
+                    <div class="dropdown-list2 nav-menu">
+                        <table class="no-list-style2">
+                            <tr>
+                                <td style="border-bottom: 2px solid gray;">Playlists</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Favourite Songs
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="side-songq">
+                <div class="songs">
+                    <div class="song-count">
+                        1
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/mirage.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Mirage</p>
+
+                                <p class="song-singer">Else</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        2
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/newskin.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Worry Bout us</p>
+
+                                <p class="song-singer">Rosie Lowe</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        3
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/nightwemet.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">New Skin</p>
+
+                                <p class="song-singer">Flume</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        <span style="color: rgb(35,182,216);"> <i class="fa-solid fa-chart-simple"></i> </span>
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/worryboutus.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Let me love you</p>
+
+                                <p class="song-singer">Bieber</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        5
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/letmelove.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Night We Met</p>
+
+                                <p class="song-singer">Durgesh</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        6
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/mirage.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Mirage</p>
+
+                                <p class="song-singer">Else</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        <span style="color: rgb(35,182,216);">
+                            <i class="fa-solid fa-chart-simple"></i></span>
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/newskin.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Worry Bout Us</p>
+
+                                <p class="song-singer">Rosie Lowe</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        8
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/nightwemet.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">New Skin</p>
+
+                                <p class="song-singer">Flume</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        9
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/worryboutus.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Let Me Love you</p>
+
+                                <p class="song-singer">Bieber</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+                <div class="songs">
+                    <div class="song-count">
+                        10
+                    </div>
+
+                    <div class="song-info">
+                        <div>
+                            <img src="static/images/letmelove.jpeg" alt="" class="thumbnail-song">
+                        </div>
+                        <div class="song-meta">
+                            <div>
+                                <p class="song-title">Night We Met</p>
+
+                                <p class="song-singer">Durgesh</p>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="song-like">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-contenet">
+
+                <div class="footer-1">
+                    <div class="songs2">
+
+
+                        <div class="song-info2">
+                            <div class="hoverc">
+                                <img src="static/images/mirage.jpeg" alt="" class="thumbnail-song2 ">
+                                <div class="pause"><i class="fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="song-meta2">
+                                <div style="margin-top: 35px;">
+                                    <p class="song-title2">Mirage</p>
+
+                                    <p class="song-singer">Else</p>
+                                </div>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="song-like2">
+                            <div class="like-items"> <i class="fa-regular fa-heart"></i> </div>
+                            <div class="like-items"><i class="fa-solid fa-ban"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-2">
+
+                    <div class="music-1">
+                        <div style="color: lightgray;"> <i class="fa-solid fa-shuffle"></i></div>
+                        <div style="color: lightgray;"><i class="fa-solid fa-backward-step"></i> </div>
+                        <div style="font-size: 2rem;"><i class="fa-solid fa-circle-pause"></i> </div>
+                        <div style="color: lightgray;"><i class="fa-solid fa-forward-step"></i></div>
+                        <div style="color: lightgray;"> <i class="fa-solid fa-retweet"></i></div>
+                    </div>
+                    <div class="music-2">
+                        <div>
+                            1:39
+                        </div>
+
+                        <div class="music-line">
+                            <div class="music-line1"></div>
+                            <div class="dot"></div>
+                            <div class="music-line2"></div>
+                        </div>
+
+
+                        <div>
+                            4:44
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-3">
+                    <div>
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-computer"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="music-line22">
+                        <div class="music-line12"></div>
+                        <div class="dot2"></div>
+                        <div class="music-line222"></div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="static/js/index.js"></script>
+</body>
+
+</html>
